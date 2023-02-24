@@ -2,7 +2,7 @@ package com.lpy.thread.theadLocal;
 
 public class ThreadLocalDemo {
     private static int num = 0;
-
+ 
     public static void main(String[] args) {
         Thread[] threads = new Thread[5];
         for (int i = 0; i < 5; i++) {
